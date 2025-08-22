@@ -1,0 +1,10 @@
+# Este arquivo garante que o diretório outputs/ seja incluído no Git
+# 
+# O diretório outputs/ é onde os alunos devem salvar os resultados 
+# dos comandos executados durante os exercícios.
+#
+# Exemplos de arquivos que serão criados aqui:
+# - ex1_pwd.txt
+# - ex2_ls_simples.txt  
+# - ex3_navegacao.txt
+# - etc.

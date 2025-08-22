@@ -1,0 +1,41 @@
+=== História e Evolução dos Sistemas Operacionais ===
+
+O Linux é um sistema operacional de código aberto criado por Linus Torvalds em 1991.
+Diferente do Windows, que é propriedade da Microsoft, o Linux é desenvolvido por uma
+comunidade global de programadores e está disponível gratuitamente.
+
+=== Por que aprender Linux? ===
+
+1. Servidores: A maioria dos servidores web utiliza Linux
+2. Cloud Computing: AWS, Google Cloud e Azure oferecem máquinas Linux
+3. Desenvolvimento: Muitas ferramentas de desenvolvimento funcionam melhor no Linux
+4. Segurança: Linux é considerado mais seguro que outros sistemas
+5. Custo: É gratuito e não requer licenças
+
+=== Estrutura de Diretórios no Linux ===
+
+No Linux, tudo é organizado em uma árvore de diretórios:
+- / (raiz): O diretório principal
+- /home: Diretórios pessoais dos usuários
+- /etc: Arquivos de configuração do sistema
+- /var: Dados variáveis (logs, cache)
+- /usr: Programas e aplicações
+- /tmp: Arquivos temporários
+
+=== Interface de Linha de Comando (CLI) ===
+
+Enquanto o Windows prioriza a interface gráfica, o Linux tradicionalmente
+usa a linha de comando. Isso pode parecer intimidador no início, mas oferece:
+- Maior controle sobre o sistema
+- Automatização de tarefas repetitivas
+- Eficiência no gerenciamento de recursos
+- Acesso remoto facilitado
+
+=== Aplicações Empresariais ===
+
+No ambiente corporativo, o conhecimento de Linux é essencial para:
+- Administração de servidores
+- DevOps e infraestrutura
+- Segurança da informação
+- Big Data e análise de dados
+- Containerização com Docker
