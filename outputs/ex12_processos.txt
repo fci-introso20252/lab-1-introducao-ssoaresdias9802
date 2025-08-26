@@ -1,0 +1,34 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+codespa+       1  0.0  0.0   1136   640 ?        Ss   19:58   0:00 /sbin/docker-init -- /bin/sh -c echo Container started trap "exit 0" 15 /usr/local/share/ssh-init.sh /usr/local/share/docker-init.sh exec "$@" while sleep 1 & wait $!; do :; done -
+codespa+       7  0.0  0.0   2800  1536 ?        S    19:58   0:00 /bin/sh -c echo Container started trap "exit 0" 15 /usr/local/share/ssh-init.sh /usr/local/share/docker-init.sh exec "$@" while sleep 1 & wait $!; do :; done -
+root          35  0.0  0.0  12016  2836 ?        Ss   19:58   0:00 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups
+root          64  0.0  0.9 1968036 74892 ?       Sl   19:58   0:00 dockerd --dns 168.63.129.16
+root          79  0.0  0.6 1801440 49176 ?       Ssl  19:58   0:00 containerd --config /var/run/docker/containerd/containerd.toml
+codespa+     179  0.0  0.0   2800  1792 ?        Ss   19:58   0:00 /bin/sh
+root         204  0.0  0.0   2800  1664 ?        Ss   19:58   0:00 /bin/sh
+codespa+     386  0.0  0.0   2808  1792 ?        Ss   19:58   0:00 sh /home/codespace/.vscode-remote/bin/6f17636121051a53c88d3e605c491d22af2ba755/bin/code-server --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-6f17636121051a53c88d3e605c491d22af2ba755 --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+codespa+     395  0.3  1.4 11833820 117556 ?     Sl   19:58   0:05 /vscode/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/node /vscode/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/out/server-main.js --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-6f17636121051a53c88d3e605c491d22af2ba755 --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+docker-init-+-dockerd-+-containerd---7*[{containerd}]
+            |         `-9*[{dockerd}]
+            |-sh---sleep
+            `-sshd
+top - 20:23:13 up 30 min,  0 user,  load average: 0.14, 0.28, 0.46
+Tasks:  19 total,   1 running,  18 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.2 us, 13.6 sy,  0.0 ni, 68.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7944.7 total,    181.1 free,   1789.4 used,   6350.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6155.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.05 docker-+
+      7 codespa+  20   0    2800   1536   1536 S   0.0   0.0   0:00.33 sh
+     35 root      20   0   12016   2836   1792 S   0.0   0.0   0:00.00 sshd
+     64 root      20   0 1968036  74892  51840 S   0.0   0.9   0:00.36 dockerd
+     79 root      20   0 1801440  49176  34304 S   0.0   0.6   0:00.43 contain+
+    179 codespa+  20   0    2800   1792   1792 S   0.0   0.0   0:00.00 sh
+    204 root      20   0    2800   1664   1664 S   0.0   0.0   0:00.00 sh
+    386 codespa+  20   0    2808   1792   1792 S   0.0   0.0   0:00.00 sh
+    395 codespa+  20   0   11.3g 117556  55424 S   0.0   1.4   0:05.34 node
+    631 codespa+  20   0   42.1g 369472  63744 S   0.0   4.5   0:29.00 node
+    646 codespa+  20   0 1261984  60512  48000 S   0.0   0.7   0:00.27 node
+   1057 codespa+  20   0 1143348  79476  48512 S   0.0   1.0   0:03.05 node
+   1457 codespa+  20   0 1183620  67804  48384 S   0.0   0.8   0:00.48 node

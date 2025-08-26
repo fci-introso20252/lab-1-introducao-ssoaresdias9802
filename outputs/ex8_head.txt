@@ -1,0 +1,5 @@
+=== História e Evolução dos Sistemas Operacionais ===
+
+O Linux é um sistema operacional de código aberto criado por Linus Torvalds em 1991.
+Diferente do Windows, que é propriedade da Microsoft, o Linux é desenvolvido por uma
+comunidade global de programadores e está disponível gratuitamente.

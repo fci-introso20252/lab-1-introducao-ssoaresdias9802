@@ -1,0 +1,5 @@
+- Administração de servidores
+- DevOps e infraestrutura
+- Segurança da informação
+- Big Data e análise de dados
+- Containerização com Docker

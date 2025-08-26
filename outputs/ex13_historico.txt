@@ -1,0 +1,23 @@
+   55  ls -la meu_diretorio/ > outputs/ex7_mover.txt
+   56  ls -la meu_diretorio/subdir1/ >> outputs/ex7_mover.txt
+   57  cat exemplos/origem.txt > outputs/ex8_cat.txt
+   58  head -5 exemplos/origem.txt > outputs/ex8_head.txt
+   59  tail -5 exemplos/origem.txt > outputs/ex8_tail.txt
+   60  wc exemplos/origem.txt > outputs/ex8_wc.txt
+   61  grep "Linux" exemplos/origem.txt > outputs/ex9_grep.txt
+   62  grep -n "Diretório" exemplos/teste2.txt >> outputs/ex9_grep.txt
+   63  grep "comando" exemplos/*.txt >> outputs/ex9_grep.txt
+   64  ls -la | head -5 > outputs/ex10_pipe.txt
+   65  ls | wc -l > outputs/ex10_count.txt
+   66  ls exemplos/ | sort | uniq > outputs/ex10_sort.txt
+   67  uname -a > outputs/ex11_sistema.txt
+   68  cat /etc/os-release >> outputs/ex11_sistema.txt
+   69  df -h >> outputs/ex11_sistema.txt
+   70  free -h >> outputs/ex11_sistema.txt
+   71  ps aux | head -10 > outputs/ex12_processos.txt
+   72  pstree | head -20 >> outputs/ex12_processos.txt
+   73  top -b -n 1 | head -20 >> outputs/ex12_processos.txt
+   74  history | tail -20 > outputs/ex13_historico.txt
+   38  mkdir meu_diretorio
+   39  mkdir -p meu_diretorio/subdir1/subdir2
+   76  history | grep "mkdir" >> outputs/ex13_historico.txt

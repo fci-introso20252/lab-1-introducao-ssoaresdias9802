@@ -1,7 +1,7 @@
 # 📝 Relatório do Laboratório 1 - Introdução ao Linux
 
-**Nome:** [Seu nome aqui]  
-**RA:** [Seu RA aqui]  
+**Nome:** [STEPHANIE JULIA SOARES DIAS]  
+**RA:** [10223952]  
 
 ---
 
@@ -25,19 +25,20 @@ Para elaborar um relatório completo e que realmente agregue valor ao seu aprend
 **1. Qual foi o comando mais útil que você aprendeu? Por quê?**
 
 ```
-[Sua resposta aqui]
+Grep, ele facilita muito a busca por palavras dentro de arquivos.
 ```
 
 **2. Qual comando você achou mais difícil de entender? Por quê?**
 
 ```
-[Sua resposta aqui]
+Tree, pois ele tem uma visualização mais extensa que é um pouco confusa.
+
 ```
 
 **3. Você conseguiu completar todos os exercícios? Se não, quais dificuldades encontrou?**
 
 ```
-[Sua resposta aqui]
+Sim.
 ```
 
 ---
@@ -49,21 +50,21 @@ Para elaborar um relatório completo e que realmente agregue valor ao seu aprend
 **1. Liste 3 diferenças principais entre usar Windows e Linux que você notou:**
 
 ```
-1. [Primeira diferença]
-2. [Segunda diferença]
-3. [Terceira diferença]
+1. uso do terminal 
+2. acesso total ao sistema
+3. atualizações rápidas
 ```
 
 **2. Para tarefas do dia a dia, qual sistema você prefere? Por quê?**
 
 ```
-[Sua resposta aqui]
+Windows.
 ```
 
 **3. Em que situações o Linux seria mais vantajoso que o Windows?**
 
 ```
-[Sua resposta aqui]
+Desenvolvimento de software, situações em que seja necessário maior personalização.
 ```
 
 ---
@@ -75,21 +76,21 @@ Para elaborar um relatório completo e que realmente agregue valor ao seu aprend
 **1. Por que é importante para um profissional de Sistemas de Informação conhecer Linux?**
 
 ```
-[Sua resposta aqui]
+Pois dominar Linux amplia a empregabilidade, fortalece a capacidade de resolver problemas complexos e conecta o profissional às melhores práticas do mercado de TI.
 ```
 
 **2. Como o conhecimento de comandos Linux pode ajudar na gestão de TI de uma empresa?**
 
 ```
-[Sua resposta aqui]
+Conhecer comandos Linux ajuda na gestão de TI ao automatizar tarefas, melhorar a segurança dos servidores e agilizar a resolução de problemas. Isso torna a operação mais eficiente, econômica e confiável.
 ```
 
 **3. Cite 3 aplicações práticas do Linux no ambiente empresarial:**
 
 ```
-1. [Primeira aplicação]
-2. [Segunda aplicação]
-3. [Terceira aplicação]
+1. Servidores corporativos
+2. Firewall e controle de rede
+3. Automação de tarefas administrativas
 ```
 
 ---
@@ -101,24 +102,24 @@ Para elaborar um relatório completo e que realmente agregue valor ao seu aprend
 **1. Quantos arquivos você criou no diretório `outputs/`?**
 
 ```
-Total de arquivos: _____
+Total de arquivos: 22
 ```
 
 **2. Qual foi o tamanho total do diretório `meu_diretorio` que você criou?**
 
 ```bash
 # Use o comando: du -sh meu_diretorio/
-Tamanho: _____
+Tamanho: 40K
 ```
 
 **3. Liste os 5 comandos que você mais usou durante o laboratório:**
 
 ```
-1. _____
-2. _____
-3. _____
-4. _____
-5. _____
+1. pwd
+2. cd
+3. ls
+4. cat
+5. echo
 ```
 
 ---
@@ -130,13 +131,13 @@ Tamanho: _____
 **1. Você já tinha usado Git antes? Se sim, em que contexto?**
 
 ```
-[Sua resposta aqui]
+Sim, como repositório para desenvolvimento de um site.
 ```
 
 **2. Qual a importância do versionamento de código para empresas?**
 
 ```
-[Sua resposta aqui - mínimo 3 linhas]
+O versionamento de código permite rastrear alterações, colaborar em equipe e reverter erros com segurança. Ele acelera o desenvolvimento, facilita a manutenção e garante controle sobre diferentes versões do software.
 ```
 
 ---
@@ -148,13 +149,13 @@ Tamanho: _____
 **1. Que tipo de tarefas você poderia automatizar usando comandos Linux?**
 
 ```
-[Sua resposta aqui - cite pelo menos 2 exemplos]
+Instalar múltiplos pacotes com um único comando, Verificar uso de CPU, memória e disco.
 ```
 
 **2. Você consideraria usar Linux como sistema operacional principal? Por quê?**
 
 ```
-[Sua resposta aqui]
+Sim, para ter mais autonomia sobre o computador.
 ```
 
 ---
@@ -164,13 +165,13 @@ Tamanho: _____
 **O que você achou mais interessante no laboratório?**
 
 ```
-[Sua resposta aqui]
+As diversas funcionalidades do terminal.
 ```
 
 **O que poderia ser melhorado para próximos labs?**
 
 ```
-[Sua resposta aqui]
+Exercicíos com situações mais concretas.
 ```
 
 ---
@@ -179,10 +180,10 @@ Tamanho: _____
 
 Antes de enviar, verifique:
 
-- [ ] Preenchi todas as seções do relatório
-- [ ] Completei todos os exercícios em EXERCICIOS.md
-- [ ] Salvei todos os outputs na pasta outputs/
-- [ ] Criei o diretório meu_diretorio com os arquivos solicitados
+- [x] Preenchi todas as seções do relatório
+- [x] Completei todos os exercícios em EXERCICIOS.md
+- [x] Salvei todos os outputs na pasta outputs/
+- [x] Criei o diretório meu_diretorio com os arquivos solicitados
 - [ ] Fiz git add, commit e push
 
 ---

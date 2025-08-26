@@ -1,0 +1,25 @@
+=== Comandos Básicos do Linux ===
+
+pwd     - Mostra o diretório atual (Print Working Directory)
+ls      - Lista arquivos e diretórios
+cd      - Navega entre diretórios (Change Directory)
+mkdir   - Cria um novo diretório
+touch   - Cria um arquivo vazio ou atualiza timestamp
+rm      - Remove arquivos ou diretórios
+cp      - Copia arquivos ou diretórios
+mv      - Move ou renomeia arquivos
+cat     - Exibe o conteúdo de um arquivo
+echo    - Exibe uma mensagem ou texto
+clear   - Limpa a tela do terminal
+whoami  - Mostra o usuário atual
+date    - Exibe data e hora atuais
+history - Mostra histórico de comandos
+
+=== Exemplos de Uso ===
+
+ls -la          - Lista todos os arquivos com detalhes
+cd /home        - Vai para o diretório /home
+mkdir projeto   - Cria diretório chamado projeto
+touch novo.txt  - Cria arquivo novo.txt
+cat arquivo.txt - Mostra conteúdo de arquivo.txt
+echo "Olá"      - Exibe a mensagem Olá

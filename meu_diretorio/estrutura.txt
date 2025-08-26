@@ -1,0 +1,35 @@
+=== Estrutura de Diretórios do Linux ===
+
+/ (Raiz)
+├── /bin    - Comandos essenciais do sistema
+├── /boot   - Arquivos de inicialização
+├── /dev    - Dispositivos (devices)
+├── /etc    - Arquivos de configuração
+├── /home   - Diretórios pessoais dos usuários
+├── /lib    - Bibliotecas essenciais
+├── /media  - Ponto de montagem para mídias removíveis
+├── /mnt    - Ponto de montagem temporário
+├── /opt    - Software opcional/adicional
+├── /proc   - Informações de processos
+├── /root   - Diretório home do superusuário
+├── /sbin   - Comandos administrativos
+├── /srv    - Dados de serviços
+├── /tmp    - Arquivos temporários
+├── /usr    - Programas e utilitários
+└── /var    - Dados variáveis (logs, cache, etc)
+
+=== Diferenças com o Windows ===
+
+Linux:                      Windows:
+/home/usuario               C:\Users\usuario
+/etc/config                 C:\Windows\System32\config
+/var/log                    C:\Windows\Logs
+/usr/bin                    C:\Program Files
+/tmp                        C:\Windows\Temp
+
+=== Navegação ===
+
+.       - Diretório atual
+..      - Diretório pai
+~       - Diretório home do usuário
+/       - Diretório raiz

@@ -1,0 +1,5 @@
+/workspaces/lab-1-introducao-ssoaresdias9802/exemplos
+/workspaces/lab-1-introducao-ssoaresdias9802
+/workspaces/lab-1-introducao-ssoaresdias9802/docs
+/workspaces/lab-1-introducao-ssoaresdias9802
+/workspaces/lab-1-introducao-ssoaresdias9802

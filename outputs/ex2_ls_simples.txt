@@ -1,0 +1,6 @@
+EXERCICIOS.md
+README.md
+RELATORIO.md
+docs
+exemplos
+outputs

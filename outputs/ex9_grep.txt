@@ -1,0 +1,20 @@
+O Linux é um sistema operacional de código aberto criado por Linus Torvalds em 1991.
+Diferente do Windows, que é propriedade da Microsoft, o Linux é desenvolvido por uma
+=== Por que aprender Linux? ===
+1. Servidores: A maioria dos servidores web utiliza Linux
+2. Cloud Computing: AWS, Google Cloud e Azure oferecem máquinas Linux
+3. Desenvolvimento: Muitas ferramentas de desenvolvimento funcionam melhor no Linux
+4. Segurança: Linux é considerado mais seguro que outros sistemas
+=== Estrutura de Diretórios no Linux ===
+No Linux, tudo é organizado em uma árvore de diretórios:
+Enquanto o Windows prioriza a interface gráfica, o Linux tradicionalmente
+No ambiente corporativo, o conhecimento de Linux é essencial para:
+1:=== Estrutura de Diretórios do Linux ===
+8:├── /home   - Diretórios pessoais dos usuários
+14:├── /root   - Diretório home do superusuário
+32:.       - Diretório atual
+33:..      - Diretório pai
+34:~       - Diretório home do usuário
+35:/       - Diretório raiz
+exemplos/origem.txt:usa a linha de comando. Isso pode parecer intimidador no início, mas oferece:
+exemplos/teste1.txt:history - Mostra histórico de comandos
